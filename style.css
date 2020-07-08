@@ -1,0 +1,337 @@
+/*====================
+THEME NAME:
+VERSION: 1.0
+DESCRIPTION: AN AWESOME THEME TEMPLATE.
+THEME URL:
+AUTHOR: ABDUR RAHMAN
+AUTHOR URL: 
+SUPPORT: 
+====================*/
+/*=====BASIC STYLE!=====*/
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+:focus {
+    outline: 0;
+}
+
+/*=====REUSABLE COMPONENT!=====*/
+
+/* {
+    color: #fff;
+    color: #ddd;
+    color: #000;
+} */
+
+body {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+#container {
+    width: 1360px;
+    margin: auto;
+}
+
+.tie {
+    max-width: 1024px;
+    margin: auto;
+}
+.heading-2{
+    font-size: 400%;
+    font-weight: 700;
+    color: #413960;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: 'Galada', cursive;
+}
+.btn-a{
+    background: #21B573;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 6px 30px;
+    margin: 5px 0;
+    color: #fff;
+}
+.color {
+    color: #21B573;
+}
+
+/*=====STYLING  [ !@#$%^&*()_+{}|":<>? ]=====*/
+/*=====START header SECTION=====*/
+#header {
+    width: 100%;
+    background: #F0FFF0;
+    padding: 50px 0;
+}
+
+#header .logo {
+    width: 130px ;
+    height: 55px;
+    display: inline-block;
+}
+
+#header ul li a {
+    font-size: 170%;
+}
+
+#header ul li:last-child >a{
+    background: #21B573;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#header ul li a:last-child{
+    display: inline-block;
+}
+/*=====START showcase section=====*/
+#header .showcase {
+    margin-top: 100px;
+}
+
+#header .showcase h1,
+#header .showcase h2 {
+    font-size: 500%;
+    font-weight: 900;
+}
+
+#header .showcase p {
+    line-height: 40px;
+}
+
+#header .showcase a {
+    background: #21B573;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 7px 30px;
+}
+
+/*=====END showcase section=====*/
+/*=====END header SECTION=====*/
+/*=====START icon-section SECTION=====*/
+#icon-section .icon-box{
+    background: #F8FFFB;
+    padding: 50px;
+    margin: 50px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#icon-section .icon-box:hover{
+    background: #fff;
+    box-shadow: 0 0 20px 1px #ddd;
+}
+#icon-section h4{
+    font-size: 180%;
+    color: #413960;
+}
+#icon-section p{
+    font-size: 150%;
+}
+/*=====END icon-section SECTION=====*/
+/*=====START online-courses SECTION=====*/
+#online-courses{
+    margin-bottom: 50px;
+}
+
+#online-courses .card{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 20px 1px #dddd;
+}
+#online-courses .card-body{
+    padding: 0;
+}
+#online-courses .card-body h4{
+    color: #413960;
+    padding-top: 20px;
+}
+#online-courses .card-body p{
+    font-size: 170%;
+}
+
+#online-courses .card-body img{
+    width: 25px;
+}
+#online-courses .card-body span{
+    font-size: 150%;
+}
+/*=====END online-courses SECTION=====*/
+/*=====START blog SECTION=====*/
+#blog .row{
+    background: #eeee;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#blog img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+#blog .blog h3{
+    font-size: 300%;
+    color: #21B573;
+    padding-bottom: 10px;
+}
+#blog .blog span{
+    font-size: 120%;
+    padding: 10px;
+}
+#blog .blog p{
+    font-size: 200%;
+    padding: 10px 0;
+}
+#blog .blog a{
+    font-size: 70%;
+}
+/*=====END blog SECTION=====*/
+/*=====START testimonial SECTION=====*/
+#testimonial{
+    margin: 100px 0;
+    text-align: center;
+}
+
+#testimonial img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+#testimonial .info-wrapper{
+    width: 85%;
+    margin: auto;
+}
+/*=====END testimonial SECTION=====*/
+/*=====START contact SECTION=====*/
+#contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.726)),url(sources/css/img/contact.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+#contact h2{
+    color: #21B573;
+}
+#contact label{
+    font-size: 170%;
+    color: #dddd;
+}
+#contact input,
+#contact textarea{
+    color: #ddd;
+}
+/*=====END contact SECTION=====*/
+/*=====START footer SECTION=====*/
+#footer{
+    background: #282531;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#footer ul li{
+    font-size: 180%;
+    margin: 5px 0;
+}
+#footer ul li:first-child{
+    font-weight: 700;
+}
+#footer p{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 160%;
+    font-weight: 600;
+}
+/*=====END footer SECTION=====*/
+/*=====START sign in option=====*/
+#login {
+    height: 100vh;
+    background: #21B573;
+}
+#login form{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 20px 0px;
+}
+#login form legend{
+    font-size: 300%;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #413960;
+}
+#login form label{
+    font-size: 180%;
+}
+#login form a{
+    color: blue;
+    font-size: 150%;
+}
+#login form a:hover{
+    text-decoration: none;
+}
+/*=====End sign in option=====*/
+

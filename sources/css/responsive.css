@@ -1,0 +1,79 @@
+/*=====RESPONSIVE DESIGN !=====*/
+
+/*=====5000 px=====*/
+@media screen and (max-width: 5000px) {
+        #container {
+                width: 1360px;
+                margin: auto;
+        }
+
+        .tie {
+                width: 1280px;
+                margin: auto;
+        }
+}
+
+/*=====1280 px=====*/
+@media screen and (max-width: 1280px) {
+        #container {
+                width: 100%;
+        }
+
+        .tie {
+                width: 100%;
+                padding: 0 25px;
+        }
+}
+
+/*=====991 px=====*/
+@media screen and (max-width: 991.98px) {
+
+        #header .showcase h1,
+        #header .showcase h2 {
+                font-size: 370%;
+        }
+}
+
+/*=====768 px=====*/
+@media screen and (max-width: 768.98px) {
+        #footer {
+                padding-top: 50px;
+        }
+
+        #footer ul li {
+                font-size: 140%;
+        }
+}
+
+
+/*=====575 px=====*/
+@media screen and (max-width: 575.98px) {
+
+        #header .showcase h1,
+        #header .showcase h2 {
+                font-size: 300%;
+        }
+
+        #testimonial img {
+                float: none;
+                margin-bottom: 20px;
+        }
+}
+
+/*=====320 px=====*/
+@media screen and (max-width:320.98px) {
+        body {
+                font-size: 7px;
+        }
+
+        #header .logo {
+                width: 80px;
+        }
+}
+
+/*=====240 px=====*/
+@media screen and (max-width:240.98px) {
+        body {
+                font-size: 5px;
+        }
+}
